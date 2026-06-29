@@ -33,7 +33,7 @@ export function Footer() {
             <img
               src="/logo.png"
               alt="Avabodha Logo"
-              className="h-16 w-auto mb-6"
+              className="h-24 w-auto mb-6"
             />
             <p className="text-white/60 text-sm leading-relaxed mb-8 max-w-xs">
               Building safer workplaces for women through comprehensive POSH and POCSO compliance training.

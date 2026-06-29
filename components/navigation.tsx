@@ -33,13 +33,13 @@ export function Navigation() {
         }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-28">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <img
               src="/logo.png"
               alt="Avabodha Logo"
-              className="h-20 w-auto"
+              className="h-24 w-auto"
             />
           </Link>
 
