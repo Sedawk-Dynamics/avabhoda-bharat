@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@theme {
+  /* SASHA-inspired editorial palette */
+  --color-background: oklch(1 0 0);
+  /* pure white */
+  --color-foreground: oklch(0.1 0 0);
+  /* near black */
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.1 0 0);
+  --color-primary: oklch(0.1 0 0);
+  /* black for headings */
+  --color-primary-foreground: oklch(1 0 0);
+  --color-secondary: oklch(0.97 0 0);
+  /* very light gray */
+  --color-muted: oklch(0.96 0 0);
+  --color-muted-foreground: oklch(0.45 0 0);
+  --color-accent: oklch(0.48 0.22 25);
+  /* SASHA red #e31e24 */
+  --color-accent-foreground: oklch(1 0 0);
+  --color-border: oklch(0.9 0 0);
+  --color-input: oklch(0.95 0 0);
+  --color-ring: oklch(0.48 0.22 25);
+  --radius: 0rem;
+
+  --font-sans: 'Inter', 'Inter Fallback';
+  --font-serif: 'Playfair Display', 'Playfair Display Fallback';
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+.justify-fix {
+  text-align: justify;
+  text-align-last: justify;
+}

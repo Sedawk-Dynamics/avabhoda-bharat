@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /*.json$
+Disallow: /api/
+Disallow: /.well-known/
+
+# Crawl delays
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://avabodha-bharat.com/sitemap.xml
+Sitemap: https://avabodha-bharat.com/sitemap-news.xml
+
+# Google specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing specific rules
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
