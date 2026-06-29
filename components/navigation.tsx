@@ -37,7 +37,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ava%20Bodha%20logo%20with%20tagline-d3jpXJ8yFkB88kxUGcZ1s2Q8esNruA.png"
+              src="/logo.png"
               alt="Avabodha Logo"
               className="h-20 w-auto"
             />
