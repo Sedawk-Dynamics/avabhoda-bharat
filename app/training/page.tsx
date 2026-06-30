@@ -424,6 +424,164 @@ export default function TrainingPage() {
         </div>
       </section>
 
+      {/* ── Workshop — Roha, Raigad ── */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-16 max-w-3xl"
+          >
+            <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-3">On-Site Workshop</p>
+            <h2
+              className="font-serif font-bold italic text-foreground mb-6 text-balance"
+              style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', lineHeight: 1.15 }}
+            >
+              Workshop &amp; Training — Roha, Raigad
+            </h2>
+            <p className="text-gray-600 text-base leading-relaxed">
+              Another successful workshop and training session conducted for our client&apos;s factory
+              location at <span className="font-semibold text-foreground">Roha, Raigad</span>. With more
+              workshops in the pipeline, Avabodha Bharat continues its commitment to building safer,
+              more aware workplaces across India.
+            </p>
+          </motion.div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              '/training/roha-raigad-1.jpeg',
+              '/training/roha-raigad-2.jpeg',
+              '/training/roha-raigad-3.jpeg',
+            ].map((src, i) => (
+              <motion.div
+                key={i}
+                custom={i}
+                variants={fadeUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className="group relative overflow-hidden shadow-md aspect-4/3"
+              >
+                <img
+                  src={src}
+                  alt={`Avabodha Bharat workshop and training session at Roha, Raigad (${i + 1})`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute top-3 left-3 w-10 h-10 border-t-4 border-l-4 border-accent" />
+                <div className="absolute bottom-3 right-3 w-10 h-10 border-b-4 border-r-4 border-accent" />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── POSH Awareness Session ── */}
+      <section className="bg-gray-50 py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-16 max-w-3xl"
+          >
+            <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-3">Awareness in Action</p>
+            <h2
+              className="font-serif font-bold italic text-foreground mb-6 text-balance"
+              style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', lineHeight: 1.15 }}
+            >
+              POSH Awareness Session
+            </h2>
+            <p className="text-gray-600 text-base leading-relaxed">
+              Another workshop successfully delivered — Avabodha Bharat proudly contributed to this
+              <span className="font-semibold text-foreground"> POSH awareness session</span>, spreading
+              knowledge and building a culture of safety and respect at the workplace.
+            </p>
+          </motion.div>
+
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              '/training/posh-awareness-1.jpeg',
+              '/training/posh-awareness-2.jpeg',
+              // '/training/posh-awareness-3.jpeg',
+            ].map((src, i) => (
+              <motion.div
+                key={i}
+                custom={i}
+                variants={fadeUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className="group relative overflow-hidden shadow-md aspect-4/3"
+              >
+                <img
+                  src={src}
+                  alt={`Avabodha Bharat POSH awareness session (${i + 1})`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute top-3 left-3 w-10 h-10 border-t-4 border-l-4 border-accent" />
+                <div className="absolute bottom-3 right-3 w-10 h-10 border-b-4 border-r-4 border-accent" />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── POSH Training — Childrens Academy ── */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-16 max-w-3xl"
+          >
+            <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-3">Training for Educators</p>
+            <h2
+              className="font-serif font-bold italic text-foreground mb-6 text-balance"
+              style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', lineHeight: 1.15 }}
+            >
+              POSH Training — Childrens Academy
+            </h2>
+            <p className="text-gray-600 text-base leading-relaxed">
+              Another successful Awareness Session Program — a{' '}
+              <span className="font-semibold text-foreground">POSH Training Session</span> conducted for
+              teachers at <span className="font-semibold text-foreground">Childrens Academy</span>,
+              empowering educators to foster safe and respectful learning environments.
+            </p>
+          </motion.div>
+
+          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl">
+            {[
+              '/training/childrens-academy-1.jpeg',
+              '/training/childrens-academy-2.jpeg',
+            ].map((src, i) => (
+              <motion.div
+                key={i}
+                custom={i}
+                variants={fadeUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className="group relative overflow-hidden shadow-md aspect-4/3"
+              >
+                <img
+                  src={src}
+                  alt={`Avabodha Bharat POSH training session for teachers at Childrens Academy (${i + 1})`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute top-3 left-3 w-10 h-10 border-t-4 border-l-4 border-accent" />
+                <div className="absolute bottom-3 right-3 w-10 h-10 border-b-4 border-r-4 border-accent" />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Gallery ── */}
       <TrainingGallery />
 
