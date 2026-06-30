@@ -24,14 +24,6 @@ const teamMembers = [
     description: `Sudhir B Sharma is a finance and governance expert with over 38 years of experience, including leadership roles in a Maharatna Public Sector Undertaking. As Partner at Avabodha Bharat, he leads ESG advisory, strategic alliances, and large-scale compliance engagements, bringing strong financial discipline and governance oversight to client mandates. His extensive experience enables organisations to navigate complex compliance landscapes with a focus on transparency, accountability, and sustainable value creation.`,
   },
   {
-    id: 3,
-    name: 'Rohit Khedekar',
-    role: 'Manager – Program Delivery & Compliance',
-    linkedin: '#',
-    image: '/rohit.jpeg',
-    description: `Rohit Khedekar manages day-to-day operations and client engagement at Avabodha Bharat with a high degree of precision and reliability. He ensures seamless coordination between training teams, legal advisors, and client organisations, enabling effective delivery of advisory and training mandates. His role is central to program execution, compliance alignment and client experience, ensuring consistency and efficiency across engagements.`,
-  },
-  {
     id: 4,
     name: 'Mayuri Shelar',
     role: 'Head – Finance & Revenue Operations',
